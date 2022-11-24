@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "AH5MVY5478.kz.avtobys.prod",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "AH5MVY5478.kz.avtobys.beta",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "AH5MVY5478.kz.avtobys.alpha",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}
