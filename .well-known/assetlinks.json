@@ -9,7 +9,8 @@
             "sha256_cert_fingerprints": [
                 "0A:4E:E5:18:10:AA:EA:A8:B3:F1:03:BB:87:02:16:E1:C0:1A:54:77:63:A8:90:DA:B4:AA:A4:6C:D2:EC:82:9E"
             ]
-        }
+        },
+        "fallback_url": "market://details?id=kz.avtobys.userapp"
     },
     {
         "relation": [
@@ -21,7 +22,8 @@
             "sha256_cert_fingerprints": [
                 "0A:4E:E5:18:10:AA:EA:A8:B3:F1:03:BB:87:02:16:E1:C0:1A:54:77:63:A8:90:DA:B4:AA:A4:6C:D2:EC:82:9E"
             ]
-        }
+        },
+        "fallback_url": "market://details?id=kz.avtobys.userapp"
     },
     {
         "relation": [
@@ -33,6 +35,7 @@
             "sha256_cert_fingerprints": [
                 "0A:4E:E5:18:10:AA:EA:A8:B3:F1:03:BB:87:02:16:E1:C0:1A:54:77:63:A8:90:DA:B4:AA:A4:6C:D2:EC:82:9E"
             ]
-        }
+        },
+        "fallback_url": "market://details?id=kz.avtobys.userapp"
     }
 ]
