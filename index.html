@@ -11,7 +11,7 @@
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 6</p>
+        <p>Version 7</p>
     </div>
     <script>
         const queryString = window.location.search;
@@ -20,7 +20,7 @@
         const urlParams = new URLSearchParams(queryString);
         const busGuid = urlParams.get('busGuid')
         console.log(busGuid);
-        window.location.href = "avtobys://app.avtobys.kz/tracking?busGuid="+busGuid;
+        // window.location.href = "avtobys://app.avtobys.kz/tracking?busGuid="+busGuid;
     </script>
 </body>
 </html>
