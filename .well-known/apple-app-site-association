@@ -2,18 +2,16 @@
     "applinks": {
         "details": [
             {
-                "appIDs": [
-                    "AH5MVY5478.kz.avtobys.prod",
-                    "AH5MVY5478.kz.avtobys.beta",
-                    "AH5MVY5478.kz.avtobys.alpha"
-                ],
-                "components": [
-                    {
-                        "#": "no_universal_links",
-                        "exclude": true,
-                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-                    }
-                ]
+                "appID": "AH5MVY5478.kz.avtobys.prod",
+                "paths": ["/*"]
+            },
+            {
+                "appID": "AH5MVY5478.kz.avtobys.beta",
+                "paths": ["/*"]
+            },
+            {
+                "appID": "AH5MVY5478.kz.avtobys.alpha",
+                "paths": ["/*"]
             }
         ]
     },
