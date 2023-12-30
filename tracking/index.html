@@ -15,18 +15,12 @@
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 14</p>
+        <p>Version 15</p>
         <p>Platform - <span id="os_type"></span></p>
         <p>User Agent - <span id="userAgent"></span></p>
     </div>
     <script>
-        const queryString = window.location.search;
-        console.log(queryString);
 
-        const urlParams = new URLSearchParams(queryString);
-        const busGuid = urlParams.get('busGuid')
-        console.log(busGuid);
-        console.log(navigator.platform);
         document.getElementById("os_type").innerHTML = navigator.platform
         console.log(navigator.platform == "iPhone");
         document.getElementById("userAgent").innerHTML = navigator.userAgent
@@ -34,9 +28,16 @@
         if (navigator.platform == "iPhone") {
             window.location.replace("https://apps.apple.com/kz/app/avtobys/id1481967590");
         }
-        if (navigator.platform == "Android") {
+        if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
             window.location.replace("https://play.google.com/store/apps/details?id=kz.avtobys.userapp");
         }
+
+
+        // const queryString = window.location.search;
+        // console.log(queryString);
+
+        // const urlParams = new URLSearchParams(queryString);
+        // const busGuid = urlParams.get('busGuid')
         // window.location.href = "avtobys://app.avtobys.kz/tracking?busGuid="+busGuid;
     </script>
 </body>
