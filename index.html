@@ -15,7 +15,7 @@
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 11</p>
+        <p>Version 12</p>
         <p>Your Platform is <span id="os_type"></span></p>
         <p>It is iPhone - <span id="isIPhone"></span></p>
     </div>
@@ -30,6 +30,13 @@
         document.getElementById("os_type").innerHTML = navigator.platform
         console.log(navigator.platform == "iPhone");
         document.getElementById("isIPhone").innerHTML = navigator.platform == "iPhone"
+
+        if (navigator.platform == "iPhone") {
+            window.location.replace("https://apps.apple.com/kz/app/avtobys/id1481967590");
+        }
+        if (navigator.platform == "Android") {
+            window.location.replace("https://play.google.com/store/apps/details?id=kz.avtobys.userapp");
+        }
         // window.location.href = "avtobys://app.avtobys.kz/tracking?busGuid="+busGuid;
     </script>
 </body>
