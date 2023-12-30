@@ -10,8 +10,7 @@
                 "0A:4E:E5:18:10:AA:EA:A8:B3:F1:03:BB:87:02:16:E1:C0:1A:54:77:63:A8:90:DA:B4:AA:A4:6C:D2:EC:82:9E",
                 "F0:F3:01:24:2E:3E:82:DF:F1:93:6C:D0:52:F2:B5:9D:79:55:10:7E:23:6E:03:7B:84:D9:F6:72:61:19:FA:41"
             ]
-        },
-        "fallback_url": "market://details?id=kz.avtobys.userapp"
+        }
     },
     {
         "relation": [
@@ -24,8 +23,7 @@
                 "0A:4E:E5:18:10:AA:EA:A8:B3:F1:03:BB:87:02:16:E1:C0:1A:54:77:63:A8:90:DA:B4:AA:A4:6C:D2:EC:82:9E",
                 "F0:F3:01:24:2E:3E:82:DF:F1:93:6C:D0:52:F2:B5:9D:79:55:10:7E:23:6E:03:7B:84:D9:F6:72:61:19:FA:41"
             ]
-        },
-        "fallback_url": "market://details?id=kz.avtobys.userapp"
+        }
     },
     {
         "relation": [
@@ -38,7 +36,6 @@
                 "0A:4E:E5:18:10:AA:EA:A8:B3:F1:03:BB:87:02:16:E1:C0:1A:54:77:63:A8:90:DA:B4:AA:A4:6C:D2:EC:82:9E",
                 "F0:F3:01:24:2E:3E:82:DF:F1:93:6C:D0:52:F2:B5:9D:79:55:10:7E:23:6E:03:7B:84:D9:F6:72:61:19:FA:41"
             ]
-        },
-        "fallback_url": "market://details?id=kz.avtobys.userapp"
+        }
     }
 ]

@@ -14,12 +14,5 @@
                 "paths": ["/tracking"]
             }
         ]
-    },
-    "webcredentials": {
-        "apps": [
-            "AH5MVY5478.kz.avtobys.prod",
-            "AH5MVY5478.kz.avtobys.beta",
-            "AH5MVY5478.kz.avtobys.alpha"
-        ]
     }
 }
