@@ -6,12 +6,17 @@
     <title>Document</title>
 </head>
 <style>
-    div {text-align: center;}
+    div {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 9</p>
+        <p>Version 10</p>
+        <p>Your OS is <span id="os_type"></span></p>
     </div>
     <script>
         const queryString = window.location.search;
@@ -21,6 +26,7 @@
         const busGuid = urlParams.get('busGuid')
         console.log(busGuid);
         console.log(navigator.platform);
+        document.getElementById("os_type").innerHTML = navigator.platform
         // window.location.href = "avtobys://app.avtobys.kz/tracking?busGuid="+busGuid;
     </script>
 </body>
