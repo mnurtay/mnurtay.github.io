@@ -11,7 +11,15 @@
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 4</p>
+        <p>Version 5</p>
     </div>
+    <script>
+        const queryString = window.location.search;
+        console.log(queryString);
+
+        const urlParams = new URLSearchParams(queryString);
+        const busGuid = urlParams.get('busGuid')
+        console.log(busGuid);
+    </script>
 </body>
 </html>
