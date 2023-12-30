@@ -15,8 +15,9 @@
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 10</p>
-        <p>Your OS is <span id="os_type"></span></p>
+        <p>Version 11</p>
+        <p>Your Platform is <span id="os_type"></span></p>
+        <p>It is iPhone - <span id="isIPhone"></span></p>
     </div>
     <script>
         const queryString = window.location.search;
@@ -27,6 +28,8 @@
         console.log(busGuid);
         console.log(navigator.platform);
         document.getElementById("os_type").innerHTML = navigator.platform
+        console.log(navigator.platform == "iPhone");
+        document.getElementById("isIPhone").innerHTML = navigator.platform == "iPhone"
         // window.location.href = "avtobys://app.avtobys.kz/tracking?busGuid="+busGuid;
     </script>
 </body>
