@@ -15,9 +15,9 @@
 <body>
     <div>
         <p>Hello Bug!</p>
-        <p>Version 12</p>
-        <p>Your Platform is <span id="os_type"></span></p>
-        <p>It is iPhone - <span id="isIPhone"></span></p>
+        <p>Version 13</p>
+        <p>Platform - <span id="os_type"></span></p>
+        <p>User Agent - <span id="userAgent"></span></p>
     </div>
     <script>
         const queryString = window.location.search;
@@ -29,7 +29,7 @@
         console.log(navigator.platform);
         document.getElementById("os_type").innerHTML = navigator.platform
         console.log(navigator.platform == "iPhone");
-        document.getElementById("isIPhone").innerHTML = navigator.platform == "iPhone"
+        document.getElementById("userAgent").innerHTML = navigator.userAgent
 
         if (navigator.platform == "iPhone") {
             window.location.replace("https://apps.apple.com/kz/app/avtobys/id1481967590");
