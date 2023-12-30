@@ -3,15 +3,27 @@
         "details": [
             {
                 "appID": "AH5MVY5478.kz.avtobys.prod",
-                "paths": ["*"]
+                "paths": [
+                    "*",
+                    "/*",
+                    "/tracking/*"
+                ]
             },
             {
                 "appID": "AH5MVY5478.kz.avtobys.beta",
-                "paths": ["*"]
+                "paths": [
+                    "*",
+                    "/*",
+                    "/tracking/*"
+                ]
             },
             {
                 "appID": "AH5MVY5478.kz.avtobys.alpha",
-                "paths": ["*"]
+                "paths": [
+                    "*",
+                    "/*",
+                    "/tracking/*"
+                ]
             }
         ]
     }
