@@ -1,30 +1,45 @@
 {
     "applinks": {
-        "details": [
+      "details": [
+        {
+          "appIDs": [
+            "AH5MVY5478.kz.avtobys.prod",
+            "AH5MVY5478.kz.avtobys.beta",
+            "AH5MVY5478.kz.avtobys.alpha"
+          ],
+          "components": [
             {
-                "appID": "AH5MVY5478.kz.avtobys.prod",
-                "paths": [
-                    "*",
-                    "/*",
-                    "/tracking/*"
-                ]
+              "/": "/*",
+              "exclude": false,
+              "comment": "Matches any path under the domain"
             },
             {
-                "appID": "AH5MVY5478.kz.avtobys.beta",
-                "paths": [
-                    "*",
-                    "/*",
-                    "/tracking/*"
-                ]
-            },
-            {
-                "appID": "AH5MVY5478.kz.avtobys.alpha",
-                "paths": [
-                    "*",
-                    "/*",
-                    "/tracking/*"
-                ]
+              "/": "/tracking/*",
+              "exclude": false,
+              "comment": "Matches any path under /tracking/"
             }
-        ]
+          ]
+        },
+        {
+          "appID": "AH5MVY5478.kz.avtobys.prod",
+          "paths": [ "*", "/*", "/tracking/*" ]
+        },
+        {
+          "appID": "AH5MVY5478.kz.avtobys.beta",
+          "paths": [ "*", "/*", "/tracking/*" ]
+        },
+        {
+          "appID": "AH5MVY5478.kz.avtobys.alpha",
+          "paths": [ "*", "/*", "/tracking/*" ]
+        }
+      ]
+    },
+    "webcredentials": {
+      "apps": [
+        "AH5MVY5478.kz.avtobys.prod",
+        "AH5MVY5478.kz.avtobys.beta",
+        "AH5MVY5478.kz.avtobys.alpha"
+      ]
     }
-}
+  }
+  
